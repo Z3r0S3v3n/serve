@@ -1,13 +1,13 @@
 -r common.txt
 mock
 pytest
-pylint==2.6.0
+pylint==2.7.0
 pytest-mock
 pytest-cov
 grpcio
 protobuf
 grpcio-tools
-transformers==4.25.1
+transformers==4.30.0
 pyspelling
 pygit2
 pyspelling
@@ -15,3 +15,4 @@ pre-commit
 twine
 mypy
 intel_extension_for_pytorch; sys_platform != 'win32' and sys_platform != 'darwin'
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
