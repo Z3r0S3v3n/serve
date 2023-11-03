@@ -2,7 +2,7 @@ psutil
 cython
 wheel
 requests
-pillow==9.3.0
+pillow==10.0.0
 captum
 packaging
 numpy; sys_platform != 'win32'
@@ -11,3 +11,4 @@ nvgpu; sys_platform != 'win32'
 nvgpu==0.8.0; sys_platform == 'win32'
 pynvml==11.4.1
 pyyaml
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
