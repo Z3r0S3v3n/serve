@@ -1,3 +1,4 @@
 kserve>=0.9.0
 transformers
 captum
+orjson>=3.9.15 # not directly required, pinned by Snyk to avoid a vulnerability
