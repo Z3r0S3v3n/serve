@@ -1,8 +1,9 @@
 # pip install torch torchvision torchaudio
 cython
 wheel
-pillow==9.3.0
-torch==1.12.0; sys_platform == 'linux'
+pillow==10.2.0
+torch==1.13.1; sys_platform == 'linux'
 torchvision==0.13.0; sys_platform == 'linux'
 torchtext==0.13.0; sys_platform == 'linux'
 torchaudio==0.12.0; sys_platform == 'linux'
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
