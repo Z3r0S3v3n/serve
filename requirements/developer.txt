@@ -1,7 +1,7 @@
 -r common.txt
 mock
 pytest
-pylint==2.6.0
+pylint==2.6.1
 pytest-mock
 pytest-cov
 grpcio
