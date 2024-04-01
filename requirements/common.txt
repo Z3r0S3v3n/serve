@@ -2,7 +2,7 @@ psutil
 cython
 wheel
 requests
-pillow==9.3.0
+pillow==10.3.0
 captum
 packaging
 numpy; sys_platform != 'win32'
