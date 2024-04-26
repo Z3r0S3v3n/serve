@@ -16,10 +16,10 @@
 #           https://docs.docker.com/develop/develop-images/build_enhancements/
 
 
-ARG BASE_IMAGE=ubuntu:rolling
+ARG BASE_IMAGE=ubuntu:23.10
 
 FROM ${BASE_IMAGE} AS compile-image
-ARG BASE_IMAGE=ubuntu:rolling
+ARG BASE_IMAGE=ubuntu:23.10
 ARG PYTHON_VERSION=3.9
 ENV PYTHONUNBUFFERED TRUE
 
