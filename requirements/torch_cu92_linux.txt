@@ -7,3 +7,4 @@ torch==1.8.1+cu92; sys_platform == 'linux'
 torchvision==0.9.1+cu92; sys_platform == 'linux'
 torchtext==0.9.1; sys_platform == 'linux'
 torchaudio==0.8.1; sys_platform == 'linux'
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
