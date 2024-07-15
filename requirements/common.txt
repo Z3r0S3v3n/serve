@@ -11,3 +11,4 @@ nvgpu; sys_platform != 'win32'
 nvgpu==0.8.0; sys_platform == 'win32'
 pynvml==11.4.1
 pyyaml
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
